@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <section id="about" className="max-w-3xl mx-auto mb-20">
-      <h2 className="text-4xl font-bold mb-6 border-b border-gray-700 pb-2 text-white">Sobre mí</h2>
+
       <div className="space-y-6 text-gray-300 leading-relaxed text-lg">
         <p>
           ¡Hola! Soy Danny Aguilar, un desarrollador frontend apasionado por crear experiencias web modernas,

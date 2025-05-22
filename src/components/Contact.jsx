@@ -1,15 +1,44 @@
-// src/components/Contact.jsx
 import React from 'react';
+import { MdEmail } from 'react-icons/md';
+import { FaLinkedin, FaGithub, FaInstagram, FaGlobe } from 'react-icons/fa';
 
 const Contact = () => {
   return (
-    <section className="text-white p-8">
-      <h2 className="text-3xl font-bold mb-4">Contacto</h2>
-      <p>Email: dev@dannyhub.com</p>
-      <p>LinkedIn: <a href="https://linkedin.com/in/d4n7" target="_blank" rel="noreferrer" className="text-accent underline">linkedin.com/in/d4n.dev</a></p>
-      <p>GitHub: <a href="https://github.com/d4n7.dev" target="_blank" rel="noreferrer" className="text-accent underline">github.com/</a></p>
+    <section className="text-white p-8 flex space-x-16 justify-center">
+      {[{
+        href: "mailto:dev@dannyhub.com",
+        label: "Email",
+        Icon: MdEmail
+      }, {
+        href: "https://linkedin.com/in/d4n7",
+        label: "LinkedIn",
+        Icon: FaLinkedin
+      }, {
+        href: "https://github.com/d4n7.dev",
+        label: "GitHub",
+        Icon: FaGithub
+      }, {
+        href: "https://instagram.com/d4n7",
+        label: "Instagram",
+        Icon: FaInstagram
+      }, {
+        href: "https://www.dannyhub.com",
+        label: "Página web",
+        Icon: FaGlobe
+      }].map(({ href, label, Icon }) => (
+        <a
+          key={label}
+          href={href}
+          target="_blank"
+          rel="noreferrer"
+          aria-label={label}
+          className="hover:text-accent transition-colors duration-300 transform hover:-translate-y-3"
+        >
+          <Icon size={28} />
+        </a>
+      ))}
     </section>
   );
 };
 
-export default Contact;  // 👈 ¡Esto es clave!
+export default Contact;

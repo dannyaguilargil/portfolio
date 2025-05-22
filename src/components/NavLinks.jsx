@@ -2,10 +2,26 @@ import React from 'react';
 
 const NavLinks = () => {
   return (
-    <nav className="mt-16 flex flex-col space-y-4 text-gray-400">
-      <a href="#about" className="hover:text-white text-lg font-medium">Sobre mí</a>
-      <a href="#projects" className="hover:text-white text-lg font-medium">Proyectos</a>
-      <a href="#contact" className="hover:text-white text-lg font-medium">Contacto</a>
+    <nav className="mt-6 flex flex-col items-center space-y-6 text-gray-400">
+      <a
+        href="#about"
+        className="group relative pl-4 text-lg font-medium hover:text-white transition-colors duration-300"
+      >
+        <span
+          className="absolute left-0 top-0 h-full w-1 rounded bg-accent opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+        ></span>
+        Sobre mí
+      </a>
+
+      <a
+        href="#projects"
+        className="group relative pl-4 text-lg font-medium hover:text-white transition-colors duration-300"
+      >
+        <span
+          className="absolute left-0 top-0 h-full w-1 rounded bg-accent opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+        ></span>
+        Proyectos
+      </a>
     </nav>
   );
 };
