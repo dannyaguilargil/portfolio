@@ -1,0 +1,14 @@
+.right-content {
+ 
+background-color: white;
+color: #0D3745;
+font-family: 'Staatliches', sans-serif;  /* Texto del cuerpo */
+
+  /* otros estilos */
+}
+a{
+    color: black;
+}
+a:hover{
+    color: black;
+}

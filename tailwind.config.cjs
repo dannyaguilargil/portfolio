@@ -4,14 +4,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: '#0a192f',
-        accent: '#64ffda',
-        primary: '#ccd6f6',
-        secondary: '#8892b0',
+        background: '#000000',
+        accent: '#00ff00',
+        primary: '#00ff00',
+        secondary: '#00cc00',
+        terminalGray: '#1a1a1a',
       },
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
-        mono: ['SF Mono', 'monospace'],
+        mono: ['Courier New', 'Courier', 'monospace'],
       },
     },
   },

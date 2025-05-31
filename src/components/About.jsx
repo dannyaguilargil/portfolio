@@ -2,22 +2,19 @@ import React from "react";
 
 const About = () => {
   return (
-    <section id="about" className="max-w-3xl mx-auto mb-20">
+    <section id="about" className="">
 
-      <div className="space-y-6 text-gray-300 leading-relaxed text-lg">
-        <p>
-          ¡Hola! Soy Danny Aguilar, un desarrollador frontend apasionado por crear experiencias web modernas,
-          accesibles y llamativas. Me especializo en construir interfaces de usuario atractivas usando tecnologías como React, JavaScript, HTML y CSS, con especial atención al detalle, la eficiencia y la usabilidad.
-        </p>
-        <p>
-          A lo largo de mi carrera he trabajado en diversos proyectos, desde sitios corporativos hasta plataformas interactivas. Disfruto transformar ideas en productos funcionales, cuidando tanto el diseño como el rendimiento del sitio. Me enfoco en la experiencia del usuario como el centro de toda decisión de desarrollo.
-        </p>
-        <p>
-          Me mantengo al día con las últimas tecnologías del ecosistema frontend, adoptando herramientas como Tailwind CSS para agilizar estilos, Vite para entornos de desarrollo rápidos, y librerías como Three.js cuando quiero experimentar con visuales más inmersivas.
-        </p>
-        <p>
-          Fuera del código, me encanta trabajar en equipo, aprender de otros desarrolladores y compartir soluciones. Soy una persona organizada, autodidacta y comprometida con la calidad del trabajo. Siempre busco nuevos retos donde pueda seguir creciendo y contribuir con ideas que marquen la diferencia.
-        </p>
+      <div className=""> <br /> <br /> <br />
+       <p>Hola mundo soy Danny Aguilar, un desarrollador backend apasionado por crear sitios modernos y hechos a la medida, me enfoco en sistemas funcionales
+y utilizando tecnologias como Python, Rust, Javascript Y Kotlin,
+
+A lo largo de mi carrera he trabajado en diversos proyectos, desde sitios para uso personal a sitios corporativos con mas de 2mil usuarios, disfruto transformar ideas en soluciones digitales.
+ <p>
+Me mantengo al dia con las ultimas tecnologias listo para escalar y llevarlos al siguiente nivel y en sitios inmersivos, en mis tiempo libres aporto mi conocimiento a una fundacion para que se vea lo que mucha veces ignoramos, el lado humanizado, aportando lo increible que puede hacer la tecnologia, siempre estoy en busca de retos donde pueda seguir creciendo y hacer la diferencia.</p>
+
+
+</p>
+
       </div>
     </section>
   );

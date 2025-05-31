@@ -4,7 +4,7 @@ import { FaLinkedin, FaGithub, FaInstagram, FaGlobe } from 'react-icons/fa';
 
 const Contact = () => {
   return (
-    <section className="text-white p-8 flex space-x-16 justify-center">
+    <section className="text-white p-40 flex space-x-16 justify-center">
       {[{
         href: "mailto:dev@dannyhub.com",
         label: "Email",

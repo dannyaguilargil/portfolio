@@ -2,9 +2,9 @@ import React from "react";
 
 const projectsData = [
   {
-    title: "Portafolio Personal",
+    title: "Implantación y Despliegue de Plataformas Web",
     description:
-      "Un sitio web moderno para mostrar mis proyectos, habilidades y experiencia, construido con React y Tailwind CSS.",
+      "A lo largo de mi carrera he liderado la implantacion de sitios web y plataformas funcionales desde cero, me encargo de todo el proceso desde la configuracion del servidor hasta el despliegue en produccion, utilizo las herramientas modernas para automatizar despliegues y adaptar cada solucion a las necesidades especificas del cliente o de la organizacion. ",
     imageUrl:
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=200&q=80",
     link: "https://dannyhub.com/portfolio",
@@ -29,10 +29,9 @@ const projectsData = [
 
 const Projects = () => {
   return (
-    <section id="projects" className="max-w-3xl mx-auto mb-20 px-4">
-      <h2 className="text-4xl font-bold text-white mb-12 text-center">
-        Proyectos Destacados
-      </h2>
+    <section id="projects" className="">
+      <br /> <br /> 
+     
       <ul className="space-y-8">
         {projectsData.map(({ title, description, imageUrl, link }) => (
           <li key={title}>
