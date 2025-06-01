@@ -11,7 +11,7 @@ const Contact = () => {
         label: "Email",
         Icon: MdEmail
       }, {
-        href: "https://linkedin.com/in/d4n7",
+        href: "https://linkedin.com/in/ingdannydev/",
         label: "LinkedIn",
         Icon: FaLinkedin
       }, {
@@ -19,7 +19,7 @@ const Contact = () => {
         label: "GitHub",
         Icon: FaGithub
       }, {
-        href: "https://instagram.com/d4n7",
+        href: "https://instagram.com/d4n7.dev",
         label: "Instagram",
         Icon: FaInstagram
       }, {

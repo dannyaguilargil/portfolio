@@ -12,7 +12,7 @@ const SocialIcons = () => {
       <a href="https://linkedin.com/in/dannyaguilargil" target="_blank" rel="noopener noreferrer">
         <FaLinkedin size={24} />
       </a>
-      <a href="mailto:danny@example.com">
+      <a href="mailto:dev@dannyhub.com">
         <FaEnvelope size={24} />
       </a>
     </div>

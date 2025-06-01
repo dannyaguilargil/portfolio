@@ -39,7 +39,9 @@
     drop-shadow(0 0 12px #E07F3F)
     drop-shadow(0 0 24px #E07F3F)
     drop-shadow(0 -6px 20px #84341C)
-    drop-shadow(0 0 6px #E07F3F);
+    drop-shadow(0 0 6px #E07F3F)
+    drop-shadow(0 0 6px rgba(234, 201, 79, 0.15)) /* amarillo más tenue */
+    drop-shadow(0 0 10px rgba(234, 201, 79, 0.1));
 }
 
 .fire-effect::before {
@@ -48,7 +50,9 @@
   filter:
     drop-shadow(0 0 12px #E07F3F)
     drop-shadow(0 0 24px #E07F3F)
-    drop-shadow(0 -6px 20px #84341C);
+    drop-shadow(0 -6px 20px #84341C)
+    drop-shadow(0 0 6px rgba(234, 201, 79, 0.15))
+    drop-shadow(0 0 10px rgba(234, 201, 79, 0.1));
   animation: flickerFire 1.2s infinite alternate;
 }
 
@@ -60,20 +64,27 @@
       drop-shadow(0 0 12px #E07F3F)
       drop-shadow(0 0 24px #E07F3F)
       drop-shadow(0 -6px 20px #84341C)
-      drop-shadow(0 0 6px #E07F3F);
+      drop-shadow(0 0 6px #E07F3F)
+      drop-shadow(0 0 6px rgba(234, 201, 79, 0.15))
+      drop-shadow(0 0 10px rgba(234, 201, 79, 0.1));
   }
   50% {
     filter:
       drop-shadow(0 0 24px #E07F3F)
       drop-shadow(0 0 48px #E07F3F)
       drop-shadow(0 -10px 30px #84341C)
-      drop-shadow(0 0 12px #E07F3F);
+      drop-shadow(0 0 12px #E07F3F)
+      drop-shadow(0 0 6px rgba(234, 201, 79, 0.1))
+      drop-shadow(0 0 12px rgba(234, 201, 79, 0.08));
   }
   100% {
     filter:
       drop-shadow(0 0 12px #E07F3F)
       drop-shadow(0 0 24px #E07F3F)
       drop-shadow(0 -6px 20px #84341C)
-      drop-shadow(0 0 6px #E07F3F);
+      drop-shadow(0 0 6px #E07F3F)
+      drop-shadow(0 0 6px rgba(234, 201, 79, 0.15))
+      drop-shadow(0 0 10px rgba(234, 201, 79, 0.1));
   }
 }
+

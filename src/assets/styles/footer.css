@@ -1,0 +1,14 @@
+.footer {
+  text-align: center;
+  font-size: 0.875rem; /* equivale a text-sm */
+  padding: 0.5rem; /* equivale a p-2 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem; /* equivale a gap-1 */
+}
+
+.footer img {
+  width: 6vw;  /* mucho más pequeño */
+  height: 6vw;
+}
