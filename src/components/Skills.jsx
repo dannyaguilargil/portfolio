@@ -69,7 +69,7 @@ const Skills = () => {
       {
         name: 'Dominio',
         type: 'bar',
-        data: visible ? [85, 95, 70, 75, 80] : [0, 0, 0, 0, 0],
+        data: visible ? [90, 50, 80, 95, 80] : [0, 0, 0, 0, 0],
         itemStyle: {
           color: '#E07F3F',
           borderRadius: [5, 5, 0, 0],

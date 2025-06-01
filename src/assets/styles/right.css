@@ -13,9 +13,15 @@ html, body {
 a{
   color: black;
 }
-.texto{
+.texto {
   font-family: 'Staatliches', sans-serif;
   font-size: 1.5vw;
-  padding: 12w;
+  padding: 2rem 2rem 1rem 4rem; /* arriba, derecha, abajo, izquierda */
   color: #0D3745;
+  background-color: white;
+}
+.texto p::first-letter {
+  font-size: 2.5vw;
+  font-weight: bold;
+  color: #E07F3F; /* opcional, puedes elegir otro color si quieres destacarla */
 }

@@ -2,6 +2,7 @@ import React from 'react';
 import About from './About';
 import Projects from './Projects';
 import Skills from './Skills';
+import Footer from './Footer';
 import '../assets/styles/right.css'; 
 
 const MainContent = () => {
@@ -10,6 +11,7 @@ const MainContent = () => {
       <About />
       <Projects />
       <Skills />
+      <Footer />
     </div>
   );
 };

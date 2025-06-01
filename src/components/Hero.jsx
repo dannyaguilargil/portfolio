@@ -1,25 +1,19 @@
 import React from 'react';
+import '../assets/styles/hero.css';
 
 const Hero = () => {
   return (
-  
-<div className="flex flex-col justify-center h-full text-left ml-[4rem] mt-16">
-  <br /> <br /> <br />
-  <h1 className=" mb-0">
-    Danny Aguilar
-  </h1>
-  <h2 className="text-3xl sm:text-5xl font-semibold text-gray-400 mt-0 leading-tight">
-    Ingeniero de Back-End & Pentester
-  </h2>
-  <p className="mt-2 text-lg text-accent font-mono">
-    Escribo el código que no ves, pero que lo hace todo posible...
-  </p>
-  <p className="text-gray-400 text-md sm:text-lg max-w-[700px] mt-4">
-    Ingeniero de sistemas y gestor de proyectos, apasionado por las nuevas tecnologías,
-    uso de contenedores y administración en la nube.
-  </p>
-</div>
-
+    <div className="hero-container">
+      <h1 className="hero-title">Danny Aguilar</h1>
+      <h2 className="hero-subtitle">Ingeniero de Back-End & Pentester</h2>
+      <p className="hero-highlight">
+        Escribo el código que no ves, pero que lo hace todo posible...
+      </p>
+      <p className="hero-description">
+        Ingeniero de sistemas y gestor de proyectos, apasionado por las nuevas tecnologías,
+        uso de contenedores y administración en la nube.
+      </p>
+    </div>
   );
 };
 

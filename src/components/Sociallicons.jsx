@@ -1,7 +1,7 @@
 // src/components/SocialIcons.jsx
 import React from 'react';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
-import '../assets/styles/social.css'; // Asegúrate que esta ruta es correcta según tu estructura
+import '../assets/styles/social.css'; 
 
 const SocialIcons = () => {
   return (
