@@ -1,0 +1,44 @@
+.contact-section {
+  padding: 5rem;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  background-color: #0D3745; /* Fondo azul oscuro */
+  border-radius: 1rem;
+}
+
+@keyframes flame {
+  0% {
+    filter: 
+      drop-shadow(0 0 12px #E07F3F)
+      drop-shadow(0 0 24px #E07F3F)
+      drop-shadow(0 -6px 20px #84341C)
+      drop-shadow(0 0 6px #E07F3F);
+  }
+  50% {
+    filter: 
+      drop-shadow(0 0 24px #E07F3F)
+      drop-shadow(0 0 48px #E07F3F)
+      drop-shadow(0 -10px 30px #84341C)
+      drop-shadow(0 0 12px #E07F3F);
+  }
+  100% {
+    filter: 
+      drop-shadow(0 0 12px #E07F3F)
+      drop-shadow(0 0 24px #E07F3F)
+      drop-shadow(0 -6px 20px #84341C)
+      drop-shadow(0 0 6px #E07F3F);
+  }
+}
+
+.contact-section a {
+  color: white;
+  transition: transform 0.3s ease, color 0.3s ease;
+  text-decoration: none;
+}
+
+.contact-section a:hover {
+  color: #E07F3F; /* Amarillo-naranja intenso en hover */
+  transform: translateY(-12px);
+  animation: flame 1.2s infinite alternate;
+}

@@ -5,6 +5,7 @@ const NavLinks = () => {
   const links = [
     { id: "about", label: "Sobre mí" },
     { id: "projects", label: "Proyectos" },
+    { id: "skills", label: "Skills" },
   ];
 
   const [activeLink, setActiveLink] = useState("about");

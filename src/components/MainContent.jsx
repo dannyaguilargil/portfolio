@@ -1,6 +1,7 @@
 import React from 'react';
 import About from './About';
 import Projects from './Projects';
+import Skills from './Skills';
 import '../assets/styles/right.css'; 
 
 const MainContent = () => {
@@ -8,6 +9,7 @@ const MainContent = () => {
     <div className='right-content'>
       <About />
       <Projects />
+      <Skills />
     </div>
   );
 };

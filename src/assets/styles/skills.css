@@ -1,0 +1,9 @@
+.skills-section {
+  padding: 4rem;
+  background-color: white; /* antes #0D3745 */
+  border-radius: 1rem;
+  margin: 2rem auto;
+  max-width: 900px;
+  color: black; /* texto principal en negro */
+  text-align: center;
+}

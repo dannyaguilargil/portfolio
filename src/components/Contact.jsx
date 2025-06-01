@@ -1,10 +1,11 @@
 import React from 'react';
 import { MdEmail } from 'react-icons/md';
 import { FaLinkedin, FaGithub, FaInstagram, FaGlobe } from 'react-icons/fa';
+import '../assets/styles/social.css';
 
 const Contact = () => {
   return (
-    <section className=" p-40 flex space-x-16 justify-center">
+    <section className="contact-section">
       {[{
         href: "mailto:dev@dannyhub.com",
         label: "Email",
@@ -32,7 +33,6 @@ const Contact = () => {
           target="_blank"
           rel="noreferrer"
           aria-label={label}
-          className="hover:text-accent transition-colors duration-300 transform hover:-translate-y-3"
         >
           <Icon size={28} />
         </a>

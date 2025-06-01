@@ -30,7 +30,50 @@
   color: #84341C;
 }
 
+/* Efecto fuego para el link activo */
+
 .fire-effect {
-  animation: flickerFire 1.2s infinite;
-  color: #84341C;
+  color: #E07F3F;
+  animation: flickerFire 1.2s infinite alternate;
+  filter:
+    drop-shadow(0 0 12px #E07F3F)
+    drop-shadow(0 0 24px #E07F3F)
+    drop-shadow(0 -6px 20px #84341C)
+    drop-shadow(0 0 6px #E07F3F);
+}
+
+.fire-effect::before {
+  background-color: #E07F3F;
+  opacity: 1;
+  filter:
+    drop-shadow(0 0 12px #E07F3F)
+    drop-shadow(0 0 24px #E07F3F)
+    drop-shadow(0 -6px 20px #84341C);
+  animation: flickerFire 1.2s infinite alternate;
+}
+
+/* Animación flicker simulando llama */
+
+@keyframes flickerFire {
+  0% {
+    filter:
+      drop-shadow(0 0 12px #E07F3F)
+      drop-shadow(0 0 24px #E07F3F)
+      drop-shadow(0 -6px 20px #84341C)
+      drop-shadow(0 0 6px #E07F3F);
+  }
+  50% {
+    filter:
+      drop-shadow(0 0 24px #E07F3F)
+      drop-shadow(0 0 48px #E07F3F)
+      drop-shadow(0 -10px 30px #84341C)
+      drop-shadow(0 0 12px #E07F3F);
+  }
+  100% {
+    filter:
+      drop-shadow(0 0 12px #E07F3F)
+      drop-shadow(0 0 24px #E07F3F)
+      drop-shadow(0 -6px 20px #84341C)
+      drop-shadow(0 0 6px #E07F3F);
+  }
 }

@@ -15,6 +15,8 @@ function App() {
             <div className="space-y-6 ">
               <Hero />
               <NavLinks />
+              
+  
             </div>
             <Contact />
           </div>
