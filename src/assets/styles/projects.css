@@ -1,0 +1,49 @@
+/* src/assets/styles/projects.css */
+
+.projects-section {
+  padding: 1rem;
+}
+
+.projects-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.project-item {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.project-item:hover .project-image {
+  filter: brightness(90%);
+}
+
+.project-item:hover .project-title {
+  color: #E07F3F;
+}
+
+.project-image {
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+  transition: filter 0.3s ease;
+}
+
+.project-title {
+  font-size: 1.45rem;
+  font-weight: 600;
+  color: #E07F3F;
+  transition: color 0.3s ease;
+}
+
+.project-description {
+  font-size: 0.875rem;
+  color: #0D3745;
+}

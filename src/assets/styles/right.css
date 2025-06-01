@@ -6,9 +6,16 @@ font-family: 'Staatliches', sans-serif;  /* Texto del cuerpo */
 
   /* otros estilos */
 }
-a{
-    color: black;
+html, body {
+  margin: 0;
+  padding: 01;
 }
-a:hover{
-    color: black;
+a{
+  color: black;
+}
+.texto{
+  font-family: 'Staatliches', sans-serif;
+  font-size: 1.5vw;
+  padding: 12w;
+  color: #0D3745;
 }

@@ -1,0 +1,36 @@
+.nav-link {
+  all: unset;
+  cursor: pointer;
+  position: relative;
+  padding-left: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.nav-link::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0.25rem;
+  background-color: #84341C;
+  opacity: 0.4;
+  transition: opacity 0.3s ease;
+  border-radius: 9999px;
+}
+
+.nav-link:hover::before {
+  opacity: 1;
+}
+
+.nav-link:hover {
+  color: #84341C;
+}
+
+.fire-effect {
+  animation: flickerFire 1.2s infinite;
+  color: #84341C;
+}
